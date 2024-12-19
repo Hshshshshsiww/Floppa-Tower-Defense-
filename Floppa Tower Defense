@@ -1,0 +1,368 @@
+--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+game:GetService("StarterGui"):SetCore("SendNotification",{
+Title = "📃Script  Floppa Tower Defense 📃",
+Text = "create by 👑Đế Vương Thánh Giới 👑", 
+Duration = 3
+})
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/DenDenZZZ/Kavo-UI-Library/main/Kavo.lua"))()
+
+local Window = Library.CreateLib("floppa tower defense", "DarkTheme")
+
+local Tab = Window:NewTab("interwebs T.d")
+
+local Section = Tab:NewSection("Unit all")
+
+Section:NewButton("AgentDog [cost 25$]", "ButtonInfo", function()
+local player = game.Players.LocalPlayer  -- Define the player as the local player
+
+local args = {
+    [1] = "AgentDog",  -- Name of the tower
+    [2] = CFrame.new(player.Character.HumanoidRootPart.Position) * CFrame.Angles(0, 0, 0)  -- Position and orientation of the tower at player's location
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+    print("Clicked")
+end)
+
+Section:NewButton("Floppa [cost 50$]", "ButtonInfo", function()
+local player = game.Players.LocalPlayer  -- Define the player as the local player
+
+local args = {
+    [1] = "Floppa",  -- Name of the tower
+    [2] = CFrame.new(player.Character.HumanoidRootPart.Position) * CFrame.Angles(0, 0, 0)  -- Position and orientation of the tower at player's location
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+    print("Clicked")
+end)
+
+Section:NewButton("Sogga [cost 150$]", "ButtonInfo", function()
+local player = game.Players.LocalPlayer  -- Define the player as the local player
+
+local args = {
+    [1] = "Sogga",  -- Name of the tower
+    [2] = CFrame.new(player.Character.HumanoidRootPart.Position) * CFrame.Angles(0, 0, 0)  -- Position and orientation of the tower at player's location
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+    print("Clicked")
+end)
+
+Section:NewButton("Vipee [cost 100$]", "ButtonInfo", function()
+local player = game.Players.LocalPlayer  -- Define the player as the local player
+
+local args = {
+    [1] = "Vipee",  -- Name of the tower
+    [2] = CFrame.new(player.Character.HumanoidRootPart.Position) * CFrame.Angles(0, 0, 0)  -- Position and orientation of the tower at player's location
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+    print("Clicked")
+end)
+
+Section:NewButton("JinxCat [cost 250$]", "ButtonInfo", function()
+local player = game.Players.LocalPlayer  -- Define the player as the local player
+
+local args = {
+    [1] = "JinxCat",  -- Name of the tower
+    [2] = CFrame.new(player.Character.HumanoidRootPart.Position) * CFrame.Angles(0, 0, 0)  -- Position and orientation of the tower at player's location
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+    print("Clicked")
+end)
+
+Section:NewButton("Nyanko [cost 375$]", "ButtonInfo", function()
+local player = game.Players.LocalPlayer  -- Define the player as the local player
+
+local args = {
+    [1] = "Nyanko",  -- Name of the tower
+    [2] = CFrame.new(player.Character.HumanoidRootPart.Position) * CFrame.Angles(0, 0, 0)  -- Position and orientation of the tower at player's location
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+    print("Clicked")
+end)
+
+Section:NewButton("Guppy [cost 250$]", "ButtonInfo", function()
+local player = game.Players.LocalPlayer  -- Define the player as the local player
+
+local args = {
+    [1] = "Guppy",  -- Name of the tower
+    [2] = CFrame.new(player.Character.HumanoidRootPart.Position) * CFrame.Angles(0, 0, 0)  -- Position and orientation of the tower at player's location
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+    print("Clicked")
+end)
+
+Section:NewButton("Salado [cost 250$]", "ButtonInfo", function()
+local player = game.Players.LocalPlayer  -- Define the player as the local player
+
+local args = {
+    [1] = "Salado",  -- Name of the tower
+    [2] = CFrame.new(player.Character.HumanoidRootPart.Position) * CFrame.Angles(0, 0, 0)  -- Position and orientation of the tower at player's location
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+    print("Clicked")
+end)
+
+Section:NewButton("WawaCat [cost 500$]", "ButtonInfo", function()
+local player = game.Players.LocalPlayer  -- Define the player as the local player
+
+local args = {
+    [1] = "WawaCat",  -- Name of the tower
+    [2] = CFrame.new(player.Character.HumanoidRootPart.Position) * CFrame.Angles(0, 0, 0)  -- Position and orientation of the tower at player's location
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+    print("Clicked")
+end)
+
+Section:NewButton("Pablo [cost 175$]", "ButtonInfo", function()
+local player = game.Players.LocalPlayer  -- Define the player as the local player
+
+local args = {
+    [1] = "Pablo",  -- Name of the tower
+    [2] = CFrame.new(player.Character.HumanoidRootPart.Position) * CFrame.Angles(0, 0, 0)  -- Position and orientation of the tower at player's location
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+    print("Clicked")
+end)
+
+Section:NewButton("Doge [cost 480$]", "ButtonInfo", function()
+local player = game.Players.LocalPlayer  -- Define the player as the local player
+
+local args = {
+    [1] = "Doge",  -- Name of the tower
+    [2] = CFrame.new(player.Character.HumanoidRootPart.Position) * CFrame.Angles(0, 0, 0)  -- Position and orientation of the tower at player's location
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+    print("Clicked")
+end)
+
+Section:NewButton("Gyakko [cost 525$]", "ButtonInfo", function()
+local player = game.Players.LocalPlayer  -- Define the player as the local player
+
+local args = {
+    [1] = "Gyakko",  -- Name of the tower
+    [2] = CFrame.new(player.Character.HumanoidRootPart.Position) * CFrame.Angles(0, 0, 0)  -- Position and orientation of the tower at player's location
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+    print("Clicked")
+end)
+
+Section:NewButton("CatNip [cost 300$]", "ButtonInfo", function()
+local player = game.Players.LocalPlayer  -- Define the player as the local player
+
+local args = {
+    [1] = "CatNip",  -- Name of the tower
+    [2] = CFrame.new(player.Character.HumanoidRootPart.Position) * CFrame.Angles(0, 0, 0)  -- Position and orientation of the tower at player's location
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+    print("Clicked")
+end)
+
+Section:NewButton("ElGato [cost 400$]", "ButtonInfo", function()
+local player = game.Players.LocalPlayer  -- Define the player as the local player
+
+local args = {
+    [1] = "ElGato",  -- Name of the tower
+    [2] = CFrame.new(player.Character.HumanoidRootPart.Position) * CFrame.Angles(0, 0, 0)  -- Position and orientation of the tower at player's location
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+    print("Clicked")
+end)
+
+Section:NewButton("Cow [cost 275$]", "ButtonInfo", function()
+local player = game.Players.LocalPlayer  -- Define the player as the local player
+
+local args = {
+    [1] = "Cow",  -- Name of the tower
+    [2] = CFrame.new(player.Character.HumanoidRootPart.Position) * CFrame.Angles(0, 0, 0)  -- Position and orientation of the tower at player's location
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+    print("Clicked")
+end)
+
+Section:NewButton("PartyGato [cost 600$]", "ButtonInfo", function()
+local player = game.Players.LocalPlayer  -- Define the player as the local player
+
+local args = {
+    [1] = "PartyGato",  -- Name of the tower
+    [2] = CFrame.new(player.Character.HumanoidRootPart.Position) * CFrame.Angles(0, 0, 0)  -- Position and orientation of the tower at player's location
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+    print("Clicked")
+end)
+
+Section:NewButton("PlaceHolderCube [cost 550$]", "ButtonInfo", function()
+local player = game.Players.LocalPlayer  -- Define the player as the local player
+
+local args = {
+    [1] = "PlaceHolderCube",  -- Name of the tower
+    [2] = CFrame.new(player.Character.HumanoidRootPart.Position) * CFrame.Angles(0, 0, 0)  -- Position and orientation of the tower at player's location
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+    print("Clicked")
+end)
+
+Section:NewButton("Chomik [cost 650$]", "ButtonInfo", function()
+local player = game.Players.LocalPlayer  -- Define the player as the local player
+
+local args = {
+    [1] = "Chomik",  -- Name of the tower
+    [2] = CFrame.new(player.Character.HumanoidRootPart.Position) * CFrame.Angles(0, 0, 0)  -- Position and orientation of the tower at player's location
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+    print("Clicked")
+end)
+
+Section:NewButton("MsFloppa [cost 400$]", "ButtonInfo", function()
+local player = game.Players.LocalPlayer  -- Define the player as the local player
+
+local args = {
+    [1] = "MsFloppa",  -- Name of the tower
+    [2] = CFrame.new(player.Character.HumanoidRootPart.Position) * CFrame.Angles(0, 0, 0)  -- Position and orientation of the tower at player's location
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+    print("Clicked")
+end)
+
+Section:NewButton("Capybara [cost 1500$]", "ButtonInfo", function()
+local player = game.Players.LocalPlayer  -- Define the player as the local player
+
+local args = {
+    [1] = "Capybara",  -- Name of the tower
+    [2] = CFrame.new(player.Character.HumanoidRootPart.Position) * CFrame.Angles(0, 0, 0)  -- Position and orientation of the tower at player's location
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+    print("Clicked")
+end)
+
+Section:NewButton("Golly [cost 900$]", "ButtonInfo", function()
+local player = game.Players.LocalPlayer  -- Define the player as the local player
+
+local args = {
+    [1] = "Golly",  -- Name of the tower
+    [2] = CFrame.new(player.Character.HumanoidRootPart.Position) * CFrame.Angles(0, 0, 0)  -- Position and orientation of the tower at player's location
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+    print("Clicked")
+end)
+
+Section:NewButton("RocketCat [cost 800$]", "ButtonInfo", function()
+local player = game.Players.LocalPlayer  -- Define the player as the local player
+
+local args = {
+    [1] = "RocketCat",  -- Name of the tower
+    [2] = CFrame.new(player.Character.HumanoidRootPart.Position) * CFrame.Angles(0, 0, 0)  -- Position and orientation of the tower at player's location
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+    print("Clicked")
+end)
+
+Section:NewButton("CatBase [cost 1750$]", "ButtonInfo", function()
+local player = game.Players.LocalPlayer  -- Define the player as the local player
+
+local args = {
+    [1] = "CatBase",  -- Name of the tower
+    [2] = CFrame.new(player.Character.HumanoidRootPart.Position) * CFrame.Angles(0, 0, 0)  -- Position and orientation of the tower at player's location
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+    print("Clicked")
+end)
+
+Section:NewButton("Gatito [cost 1450$]", "ButtonInfo", function()
+local player = game.Players.LocalPlayer  -- Define the player as the local player
+
+local args = {
+    [1] = "Gatito",  -- Name of the tower
+    [2] = CFrame.new(player.Character.HumanoidRootPart.Position) * CFrame.Angles(0, 0, 0)  -- Position and orientation of the tower at player's location
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+    print("Clicked")
+end)
+
+Section:NewButton("Critter [cost 700$]", "ButtonInfo", function()
+local player = game.Players.LocalPlayer  -- Define the player as the local player
+
+local args = {
+    [1] = "Critter",  -- Name of the tower
+    [2] = CFrame.new(player.Character.HumanoidRootPart.Position) * CFrame.Angles(0, 0, 0)  -- Position and orientation of the tower at player's location
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+    print("Clicked")
+end)
+
+Section:NewButton("Chop [cost 750$]", "ButtonInfo", function()
+local player = game.Players.LocalPlayer  -- Define the player as the local player
+
+local args = {
+    [1] = "Chop",  -- Name of the tower
+    [2] = CFrame.new(player.Character.HumanoidRootPart.Position) * CFrame.Angles(0, 0, 0)  -- Position and orientation of the tower at player's location
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+    print("Clicked")
+end)
+
+Section:NewButton("Ember [cost 1250$]", "ButtonInfo", function()
+local player = game.Players.LocalPlayer  -- Define the player as the local player
+
+local args = {
+    [1] = "Ember",  -- Name of the tower
+    [2] = CFrame.new(player.Character.HumanoidRootPart.Position) * CFrame.Angles(0, 0, 0)  -- Position and orientation of the tower at player's location
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+    print("Clicked")
+end)
+
+Section:NewButton("Kotek [cost 2500$]", "ButtonInfo", function()
+local player = game.Players.LocalPlayer  -- Define the player as the local player
+
+local args = {
+    [1] = "Kotek",  -- Name of the tower
+    [2] = CFrame.new(player.Character.HumanoidRootPart.Position) * CFrame.Angles(0, 0, 0)  -- Position and orientation of the tower at player's location
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+    print("Clicked")
+end)
+
+Section:NewButton("FloppaGunner [cost 7150$]", "ButtonInfo", function()
+local player = game.Players.LocalPlayer  -- Define the player as the local player
+
+local args = {
+    [1] = "FloppaGunner",  -- Name of the tower
+    [2] = CFrame.new(player.Character.HumanoidRootPart.Position) * CFrame.Angles(0, 0, 0)  -- Position and orientation of the tower at player's location
+}
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+    print("Clicked")
+end)
+
+local Tab = Window:NewTab("by create")
+
+local Section = Tab:NewSection("by 👑Đế Vương Thánh Giới👑 script")
+local Section = Tab:NewSection("TK 👑Đế Vương Thánh Giới👑")
